@@ -1,0 +1,181 @@
+body{
+    background-color: rgba(85, 8, 81, 0.76);
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    overflow-x: hidden;
+}
+.titulo{
+    padding-bottom: 10%;
+    display: flex;
+    justify-content: center;
+    color: aqua;
+}
+.imagen{
+    position: absolute;
+    z-index: -1; 
+    background-image: url(imagenes/imagenes-menu/akagames-logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50%;
+    margin-top: -1%;
+}
+.bonito{
+    background-color: rgba(137, 43, 226, 0.726);
+    margin-top: 10%;
+    padding-bottom: 5%;
+    width: 100%;
+    border-radius: 5%;
+    z-index: -1;
+
+}
+.subtitulo{
+    display: flex;
+    justify-content: center;
+}
+/* Estilos para la barra de desplazamiento en navegadores WebKit */
+body::-webkit-scrollbar {
+    width: 1px; /* Ancho de la barra de desplazamiento */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0); /* Color del pulgar (handle) con opacidad */
+    border-radius: 20px; /* Bordes redondeados */
+}
+
+body::-webkit-scrollbar-track {
+    background: transparent; /* Fondo transparente */
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #171a21;
+    padding: 10px 20px;
+    color: #c7d5e0;
+}
+
+.navbar-logo-img {
+    width: 120px; /* Tamaño de la imagen, igual que el tamaño del texto */
+    height: 50px;
+    margin-right: 10px; /* Espacio entre la imagen y el texto "STEAM" */
+}
+
+.navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #c7d5e0;
+    margin-right: 20px;
+}
+
+.navbar-logo span {
+    color: #66c0f4;
+}
+
+.navbar a {
+    color: #c7d5e0;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 16px;
+    position: relative;
+}
+
+.navbar a:hover {
+    color: #66c0f4;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2a475e;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #c7d5e0;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #1b2838;
+    color: #66c0f4;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.carousel-container {
+    overflow: hidden;
+    width: 100%; /* Ocupa todo el ancho de la pantalla */
+    margin: 0%; /* Quitar cualquier margen */
+    position: relative;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%; /* Asegura que el contenedor sea del ancho completo */
+}
+
+.carousel-item {
+    flex: 0 0 19.2%; /* Cada imagen ocupa exactamente el 20% del ancho para mostrar 5 imágenes */
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel-item img {
+    width: 93%;
+    height: auto;
+    display: block;
+}
+
+.carousel-controls {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 55%;
+    width: 98%;
+    transform: translateY(-50%);
+    padding: 0 10px; /* Espacio para los botones en los bordes */
+}
+
+.carreras{
+    margin: 2%;
+    background-color: rgba(84, 12, 99, 0.616);
+    border-top: solid 1px black;
+    border-left: solid 1px black;
+    border-bottom: solid 10px rgba(32, 2, 26, 0.726);
+    border-right: solid 10px rgba(61, 4, 49, 0.726);
+    
+}
+p{
+    margin: 1%;
+    justify-content: center;
+    display: flex;
+    font-style: italic;
+    color: #03b8f0;
+    font-size: large
+}
+h3{
+    position: absolute;
+    margin-top: -0.6%;
+    font-size: 300%;
+}
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
